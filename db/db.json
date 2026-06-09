@@ -1,18 +1,122 @@
-{
-  "usuarios": [
-    {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
-    },
-    {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
-    }
-  ]
-}
+{"vinis": [
+  {
+    "id": 1,
+    "titulo": "Oceano",
+    "artista": "Djavan",
+    "descricaoCurta": "Clássico da MPB brasileira.",
+    "descricaoCompleta": "Uma das músicas mais famosas de Djavan, marcando a história da MPB com sua melodia sofisticada e letra poética.",
+    "imagem": "assets/imagens/Djavan Oceano.jpg",
+    "categoria": "MPB",
+    "preco": 89.90,
+    "tags": ["MPB", "Djavan", "Clássico"],
+    "destaque": true
+  },
+  {
+    "id": 2,
+    "titulo": "O Cheiro de Carolina",
+    "artista": "Luiz Gonzaga",
+    "descricaoCurta": "Clássico do forró tradicional.",
+    "descricaoCompleta": "Canção que representa a simplicidade e o romantismo presentes na obra de Luiz Gonzaga.",
+    "imagem": "assets/imagens/luiz-gonzaga.jpg",
+    "categoria": "Forró",
+    "preco": 71.90,
+    "tags": ["Forró", "Luiz Gonzaga"],
+    "destaque": true
+  },
+  {
+    "id": 3,
+    "titulo": "Amor Meu Grande Amor",
+    "artista": "Ângela Rô Rô",
+    "descricaoCurta": "Uma das músicas mais marcantes da cantora.",
+    "descricaoCompleta": "Canção conhecida pela interpretação intensa de Ângela Rô Rô e pela profundidade de sua letra.",
+    "imagem": "assets/imagens/Angela roro.jpeg",
+    "categoria": "MPB",
+    "preco": 84.90,
+    "tags": ["MPB", "Angela Rô Rô"],
+    "destaque": true
+  },
+  {
+    "id": 4,
+    "titulo": "Trem das Onze",
+    "artista": "Adoniran Barbosa",
+    "descricaoCurta": "Um dos maiores clássicos do samba.",
+    "descricaoCompleta": "Canção eternizada pelos Demônios da Garoa e considerada um marco do samba paulista.",
+    "imagem": "assets/imagens/Adoniran.jpg",
+    "categoria": "Samba",
+    "preco": 69.90,
+    "tags": ["Samba"],
+    "destaque": false
+  },
+  {
+    "id": 5,
+    "titulo": "Não Deixe o Samba Morrer",
+    "artista": "Alcione",
+    "descricaoCurta": "Grande sucesso do samba brasileiro.",
+    "descricaoCompleta": "Uma das músicas mais conhecidas de Alcione, símbolo da valorização do samba.",
+    "imagem": "assets/imagens/Alcione.jpg",
+    "categoria": "Samba",
+    "preco": 78.90,
+    "tags": ["Samba", "Alcione"],
+    "destaque": true
+  },
+  {
+    "id": 6,
+    "titulo": "Vou Festejar",
+    "artista": "Beth Carvalho",
+    "descricaoCurta": "Um clássico das rodas de samba.",
+    "descricaoCompleta": "Canção marcante da carreira de Beth Carvalho e presença constante em festas e celebrações.",
+    "imagem": "assets/imagens/beth.jpg",
+    "categoria": "Samba",
+    "preco": 74.90,
+    "tags": ["Samba"],
+    "destaque": false
+  },
+  {
+    "id": 7,
+    "titulo": "Tempo Perdido",
+    "artista": "Legião Urbana",
+    "descricaoCurta": "Um dos maiores sucessos do rock nacional.",
+    "descricaoCompleta": "Canção icônica da Legião Urbana que marcou gerações.",
+    "imagem": "assets/imagens/Tempo-perdido.jpg",
+    "categoria": "Rock Nacional",
+    "preco": 92.90,
+    "tags": ["Rock Nacional"],
+    "destaque": true
+  },
+  {
+    "id": 8,
+    "titulo": "Metamorfose Ambulante",
+    "artista": "Raul Seixas",
+    "descricaoCurta": "Clássico do rock brasileiro.",
+    "descricaoCompleta": "Uma das músicas mais famosas de Raul Seixas, símbolo de liberdade de pensamento.",
+    "imagem": "assets/imagens/Raul-seixas.jpg",
+    "categoria": "Rock Nacional",
+    "preco": 88.90,
+    "tags": ["Rock Nacional"],
+    "destaque": true
+  },
+  {
+    "id": 9,
+    "titulo": "Pro Dia Nascer Feliz",
+    "artista": "Barão Vermelho",
+    "descricaoCurta": "Marco do rock dos anos 80.",
+    "descricaoCompleta": "Grande sucesso do Barão Vermelho e uma das músicas mais lembradas do período.",
+    "imagem": "assets/imagens/barao-vermelho.jpg",
+    "categoria": "Rock Nacional",
+    "preco": 87.90,
+    "tags": ["Rock Nacional"],
+    "destaque": false
+  },
+  {
+    "id": 10,
+    "titulo": "Asa Branca",
+    "artista": "Luiz Gonzaga",
+    "descricaoCurta": "Símbolo da música nordestina.",
+    "descricaoCompleta": "Uma das composições mais importantes da história da música brasileira.",
+    "imagem": "assets/imagens/asa-branca.jpg",
+    "categoria": "Forró",
+    "preco": 73.90,
+    "tags": ["Forró", "Nordeste"],
+    "destaque": true
+  }
+]}

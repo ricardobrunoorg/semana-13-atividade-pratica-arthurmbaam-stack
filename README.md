@@ -7,44 +7,41 @@ Para esse projeto, além de mudarmos o JSON para o JSON Server, vamos permitir o
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Arthur Moraes Braga Araujo
+- Matricula: 1025300
+- Proposta de projeto escolhida: Coleções e itens
+- Breve descrição sobre seu projeto: 
+  Um site para facilitar a pesquisa de discos de vinis que se tornou uma raridade nos dias de hoje e que algumas pessoas possuem o interesse por sua raridade e exclusividade, o site é um meio para facilitar que usuários que desejam comprar ou procurar lojas que vendem os discos encontrem o que desejam.
 
 **Registros do trabalho**
 
 << DADOS DO DB.JSON (ENTIDADE PRINCIPAL E SECUNDÁRIA) >>
 
 ```json
-{
-  "cidades": [
-    {
-      "id": 1,
-      "nome": "Paris",
-      "descricao": "Capital francesa famosa por arte, gastronomia e arquitetura icônica.",
-      "conteudo": "Paris oferece museus de classe mundial, boulevards arborizados e cafés charmosos. Ideal para quem busca história, cultura e experiências gastronômicas.",
-      "pais": "França",
-      "destaque": true,
-      "data": "2025-03-30",
-      "imagemPrincipal": "img/paris.jpg"
-    }
-  ],
-  "atracoes": [
-    {
-      "id": 1,
-      "cidadeId": 1,
-      "nome": "Torre Eiffel",
-      "descricao": "Monumento símbolo de Paris com mirantes panorâmicos.",
-      "imagem": "img/atracoes/torre_eiffel.jpg"
-    }
-  ]
-}
+{"vinis": [
+  {
+    "id": 1,
+    "titulo": "Oceano",
+    "artista": "Djavan",
+    "descricaoCurta": "Clássico da MPB brasileira.",
+    "descricaoCompleta": "Uma das músicas mais famosas de Djavan, marcando a história da MPB com sua melodia sofisticada e letra poética.",
+    "imagem": "assets/imagens/Djavan Oceano.jpg",
+    "categoria": "MPB",
+    "preco": 89.90,
+    "tags": ["MPB", "Djavan", "Clássico"],
+    "destaque": true
+  },]}
 ```
 
-<< COLOQUE A IMAGEM DA HOME AQUI >>
+![Primeira](public/assets/imagens/1.png)
+![Segunda](public/assets/imagens/2.png)
+![Terceira](public/assets/imagens/3.png)
+![Quarta](public/assets/imagens/4.png)
+![Quinta](public/assets/imagens/5.png)
+![Sexta](public/assets/imagens/6.png)
+  Detalhes
 
-<< COLOQUE A IMAGEM DA TELA DE DETALHES AQUI >>
+![Detalhes](public/assets/imagens/detalhes.png)
 
 
 
@@ -84,7 +81,7 @@ Para iniciar o JSONServer e acessar os arquivos do seu site, siga os seguintes p
    1. **Site Front End**: abra um navegador e acesse o seu site pela seguinte URL: 
       [http://localhost:3000]()
    2. **Site Back End**: abra o navegador e acesse as informações da estrutura de usuários por meio da API REST do JSONServer a partir da seguinte URL: 
-      [http://localhost:3000/usuarios](http://localhost:3000/usuarios)
+      [http://localhost:3000/vinis](http://localhost:3000/vinis)
 
 Ao criar suas estruturas de dados no arquivo db.json, você poderá obter estes dados através do endereço: http://localhost:3000/SUA_ESTRUTURA, tal qual como foi feito com a estrutura de usuários. **IMPORTANTE**: Ao editar o arquivo db.json, é necessário parar e reiniciar o JSONServer.
 
